@@ -15,5 +15,6 @@
 #
 
 $(call inherit-product, device/moto/wingray/device_base.mk)
+$(call inherit-product, vendor/moto/wingray/device-vendor.mk)
 
 # Add commands which are wingray specific after here
